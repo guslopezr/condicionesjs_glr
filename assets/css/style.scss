@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    border: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+$blackbackdrop:black;
+$fontcolor:rgb(204,
+204,
+204);
+$bordercolor: red;
+$silvercolor: rgb(115,
+132,
+159);
+$buttoncolor:rgb(59,
+59,
+59);
+$buttoncolorhover:rgb(95,
+95,
+95);
+$mainfont: 'Audiowide',
+cursive;
+body {
+    font-family: $mainfont;
+    background-color: $blackbackdrop;
+}
+
+.container-mars {
+    background-image: url("/assets/imgs/stars.jpg");
+    color: $fontcolor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1%;
+    .head {
+        height: 4vh;
+        padding: 2vh;
+        text-transform: capitalize;
+        background-color: transparent;
+    }
+    .image {
+        border: solid $bordercolor;
+        border-width: 1vh;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+        cursor: pointer;
+        &:hover {
+            border: solid $silvercolor;
+            border-width: 1vh;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(30%);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+    }
+    .image-mars {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        &:hover {
+            -webkit-transform: rotate(20deg) scale(1.01);
+            transform: rotate(20deg) scale(1.01);
+            -webkit-transition: 3s ease-in-out;
+            transition: 3s ease-in-out;
+        }
+    }
+    .challenge-2 {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        background-color: transparent;
+        .btn-challenge-2 {
+            border-radius: 10%;
+            background-color: $buttoncolor;
+            border-color: $buttoncolor;
+            color: $fontcolor;
+            font-family: $mainfont;
+            padding: 2vh;
+            margin: 2%;
+            width: 50%;
+            &:hover {
+                background-color: $buttoncolorhover;
+            }
+        }
+    }
+}
