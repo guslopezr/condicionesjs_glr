@@ -40,7 +40,7 @@ body {
         background-color: transparent;
     }
     .image {
-        border: solid $bordercolor;
+        border: solid transparent;
         border-width: 1vh;
         height: 75vh;
         display: flex;
@@ -50,7 +50,7 @@ body {
         background-color: transparent;
         cursor: pointer;
         &:hover {
-            border: solid $silvercolor;
+            border: solid transparent;
             border-width: 1vh;
             -webkit-filter: grayscale(100%);
             filter: grayscale(30%);

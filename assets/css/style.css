@@ -35,7 +35,7 @@ body {
 }
 
 .container-mars .image {
-  border: solid red;
+  border: solid transparent;
   border-width: 1vh;
   height: 75vh;
   display: -webkit-box;
@@ -55,7 +55,7 @@ body {
 }
 
 .container-mars .image:hover {
-  border: solid #73849f;
+  border: solid transparent;
   border-width: 1vh;
   -webkit-filter: grayscale(100%);
   filter: grayscale(30%);
