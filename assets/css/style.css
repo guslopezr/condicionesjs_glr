@@ -10,7 +10,7 @@ body {
 }
 
 .container-mars {
-  background-image: url("/assets/imgs/stars.jpg");
+  background-image: url("../imgs/stars.jpg");
   color: #cccccc;
   display: -webkit-box;
   display: -ms-flexbox;
