@@ -105,39 +105,45 @@ body {
 }
 
 /* Responsividad*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body {
-    width: 380px;
-    height: 650px;
-    margin: 2vh;
-    margin-top: 1vh;
+    width: 90%;
+    height: 90%;
+    margin: 2%;
+    margin-top: 2%;
+    overflow: scroll;
   }
   .head {
     text-align: center;
-    height: 5vh;
-    margin-bottom: 8vh;
+    height: 10%;
+    margin-bottom: 15%;
   }
   .container-mars {
-    margin: 5vh;
-    margin-top: 5vh;
+    margin: 5%;
+    margin-top: 5%;
     padding: 5%;
     height: 90%;
   }
   .image {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     border-radius: 50%;
+    width: 80%;
   }
   .image-mars {
-    margin: 1vh;
+    margin: 2%;
     margin-top: 3%;
     margin-bottom: 3%;
     width: 80%;
   }
-  .btn-challenge-2 {
+  .challenge-2 {
+    width: 80%;
+  }
+  .challenge-2 .btn-challenge-2 {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 250px;
+    width: 90%;
+    font-size: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
