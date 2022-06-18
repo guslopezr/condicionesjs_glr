@@ -1,11 +1,3 @@
-/* Solución borde de color */
-
-/*
-let border = document.getElementById("image");
-let noborder = 0;
-*/
-
-
 border = 1;
 console.log(border);
 
@@ -20,13 +12,3 @@ function cambiarBorde() {
     }
 
 }
-
-
-/*
-function myFunction(element, color) {
-    document.getElementById('image').border.style.borderColor = 'red';
-
-
-}
-
-*/
