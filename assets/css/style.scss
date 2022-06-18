@@ -91,12 +91,20 @@ body {
 }
 
 
-/* Bloqueo pantalla apaisado*/
+/* Responsividad*/
 
-@media only screen and (orientation:portrait) {
+@media only screen and (max-width:500px) {
     body {
-        transform: rotate(90deg);
-        height: 700px;
-        width: 800px;
+        width: 100vh;
+        height: 650px;
+        margin: 2vh;
+        margin-top: 3vh;
+    }
+    .head {
+        text-align: center;
+    }
+    .container-mars {
+        margin: 5vh;
+        margin-top: 30vh;
     }
 }
