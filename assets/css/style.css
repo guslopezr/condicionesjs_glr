@@ -105,7 +105,7 @@ body {
 /* Responsividad*/
 @media (max-width: 500px) {
   body {
-    width: 490px;
+    width: 380px;
     height: 650px;
     margin: 2vh;
     margin-top: 1vh;
