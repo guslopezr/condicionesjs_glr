@@ -103,19 +103,38 @@ body {
 }
 
 /* Responsividad*/
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
   body {
-    width: 100vh;
+    width: 90vh;
     height: 650px;
     margin: 2vh;
     margin-top: 3vh;
+    overflow: hidden;
+    position: absolute;
   }
   .head {
     text-align: center;
+    height: 5vh;
+    margin-bottom: 3vh;
   }
   .container-mars {
     margin: 5vh;
     margin-top: 30vh;
+    padding: 10%;
+  }
+  .image {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .image-mars {
+    margin: 15vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+  }
+  .btn-challenge-2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
